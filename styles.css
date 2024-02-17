@@ -1,22 +1,69 @@
 body {
     display: flex;
     flex-direction: column;
+    margin:0;
 }
 
 .header_intro_container {
     background-color: #1f2937;
+    padding: 64px 300px 64px 300px;
 }
 
 .header {
     display: flex;
     gap: 16px;
+    margin-bottom: 64px;
+    align-items: center;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-size: 24px;
 }
 
 .logo {
     margin-right: auto;
+}
+
+.intro {
+    display: flex;
+    gap: 10px;
+}
+
+
+.title_container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+#subtext {
+    color: #e5e7eb;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+button {
+    background-color:#3882F6;
+    color: white;
+    padding: 6px 32px 6px 32px;
+    font-size: 24px;
+    align-self: center;
+    margin-top: 64px;
+    border-radius: 5px;
+}
+
+.team {
+    width: 700px;
+    height: auto;
+    min-width: 200px;
 }
