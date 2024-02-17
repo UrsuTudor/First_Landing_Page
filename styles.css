@@ -3,10 +3,13 @@ body {
     flex-direction: column;
 }
 
+.header_intro_container {
+    background-color: #1f2937;
+}
+
 .header {
     display: flex;
     gap: 16px;
-    background-color: #1f2937;
 }
 
 a {
