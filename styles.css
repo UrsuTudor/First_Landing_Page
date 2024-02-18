@@ -119,3 +119,40 @@ button {
     align-self: flex-end;
     margin-top: 16px;
 }
+
+.appeal_container {
+    background-color: white;
+    padding: 16px;
+    padding: 100px 300px 100px 300px;
+}
+
+.appeal {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 60px 110px 60px 110px;
+    align-items: center;
+    gap: 150px;
+}
+
+.appeal_text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#appeal_main {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#appeal_subtext {
+    font-size: 20px;
+}
+
+#appeal_button button {
+    border-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 200px;
+}
