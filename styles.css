@@ -122,7 +122,6 @@ button {
 
 .appeal_container {
     background-color: white;
-    padding: 16px;
     padding: 100px 300px 100px 300px;
 }
 
@@ -150,7 +149,7 @@ button {
     font-size: 20px;
 }
 
-#appeal_button button {
+.appeal button {
     border-color: white;
     margin: auto;
     border-radius: 10px;
