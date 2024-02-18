@@ -156,3 +156,12 @@ button {
     border-radius: 10px;
     width: 200px;
 }
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 80px 30px 80px;
+}
